@@ -1,6 +1,6 @@
 import { join } from 'node:path';
-import { list, option, report, selectors, value } from '@cairul/plugin-kit/runner';
-import { junit } from '@cairul/plugin-kit/reports';
+import { list, option, report, selectors, value } from '@cairul/pdk/runner';
+import { junit } from '@cairul/pdk/reports';
 
 export default {
   command: ['python3', '-m', 'pytest'],
